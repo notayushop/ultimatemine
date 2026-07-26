@@ -1,0 +1,14 @@
+{
+  "sodium": {
+    "link": "https://example.com/sodium.jar"
+  },
+  "notayush-pack": {
+    "link": "https://example.com/notayush.zip"
+  },
+  "fabric": {
+    "link": "https://example.com/fabric.jar"
+  },
+  "lunar-client": {
+    "link": "https://example.com/lunar-installer.exe"
+  }
+}
