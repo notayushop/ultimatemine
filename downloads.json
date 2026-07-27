@@ -5,10 +5,7 @@
   "notayush-pack": {
     "link": "https://raw.githubusercontent.com/notayushop/ultimatemine/main/files/NotAyushOp-Texture-Pack.zip"
   },
-  "fabric": {
-    "link": "https://example.com/fabric.jar"
-  },
-  "lunar-client": {
-    "link": "https://example.com/lunar-installer.exe"
+  "flarial-client-for-mcpe": {
+    "link": "https://play.google.com/store/apps/details?id=com.flarialmc.flarial_launcher"
   }
 }
