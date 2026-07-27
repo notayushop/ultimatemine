@@ -1,11 +1,11 @@
 {
+  "flarial-client-mcpe": {
+    "link": "https://play.google.com/store/apps/details?id=com.flarialmc.flarial_launcher"
+  },
   "sodium-v8-mcpe": {
     "link": "https://raw.githubusercontent.com/notayushop/ultimatemine/main/files/sodium-v8-mcpe.mcpack"
   },
   "notayush-pack": {
     "link": "https://raw.githubusercontent.com/notayushop/ultimatemine/main/files/NotAyushOp-Texture-Pack.zip"
-  },
-  "flarial-client-for-mcpe": {
-    "link": "https://play.google.com/store/apps/details?id=com.flarialmc.flarial_launcher"
   }
 }
