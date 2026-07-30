@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <!-- popunder -->
+    <script src="https://pl30601290.effectivecpmnetwork.com/ee/b8/59/eeb85918c6164a4a3f785d52127d457c.js"></script>
+    <!-- social bar -->
     <script src="https://pl30599910.effectivecpmnetwork.com/7e/5a/ed/7e5aed04b43b6b84c92a0a85ed4d798c.js"></script>
     
     <meta charset="UTF-8">
@@ -169,5 +171,111 @@
 
     <script src="/assets/js/app.js" defer></script>
     <script src="/assets/js/download.js" defer></script>
+
+    <!-- Real Close Floating Bottom Ad (Hide Completely + Return in 20 Sec) -->
+<style>
+#bottomFloatAd{
+position:fixed;
+left:50%;
+bottom:-150px;
+transform:translateX(-50%);
+width:320px;
+max-width:95%;
+background:#111;
+border-radius:12px 12px 0 0;
+box-shadow:0 -4px 15px rgba(0,0,0,.35);
+z-index:99999;
+overflow:hidden;
+transition:bottom .5s ease, opacity .4s ease;
+opacity:1;
+}
+
+#bottomFloatAd.show{
+bottom:0;
+opacity:1;
+display:block;
+}
+
+#bottomFloatAd.hide{
+bottom:-200px;
+opacity:0;
+pointer-events:none;
+}
+
+#bottomFloatAd .closeBtn{
+position:absolute;
+top:5px;
+right:6px;
+width:20px;
+height:20px;
+line-height:20px;
+text-align:center;
+font-size:13px;
+font-weight:bold;
+background:#fff;
+color:#000;
+border-radius:50%;
+cursor:pointer;
+z-index:10;
+}
+
+#bottomFloatAd .adBox{
+padding:22px 0 0;
+text-align:center;
+min-height:50px;
+}
+
+@media(max-width:480px){
+#bottomFloatAd{
+width:100%;
+}
+}
+</style>
+
+<div id="bottomFloatAd" class="hide">
+<div class="closeBtn" onclick="closeFloatAd()">x</div>
+
+<div class="adBox">
+
+<!-- Ads Code Here -->
+<script>
+  atOptions = {
+    'key' : '3aa391e0d12677a1547a56ae8e8b47fb',
+    'format' : 'iframe',
+    'height' : 250,
+    'width' : 300,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/3aa391e0d12677a1547a56ae8e8b47fb/invoke.js"></script>
+
+</div>
+</div>
+
+<script>
+var floatAd = document.getElementById("bottomFloatAd");
+
+function showFloatAd(){
+floatAd.style.display="block";
+floatAd.classList.remove("hide");
+floatAd.classList.add("show");
+}
+
+function closeFloatAd(){
+floatAd.classList.remove("show");
+floatAd.classList.add("hide");
+
+setTimeout(function(){
+showFloatAd();
+},20000);
+}
+
+window.onload=function(){
+setTimeout(function(){
+showFloatAd();
+},1500);
+}
+</script>
+<!-- floting ad end -->
 </body>
 </html>
