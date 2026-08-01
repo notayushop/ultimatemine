@@ -1,4 +1,7 @@
 {
+  "sodium-mod-java": {
+    "link": "https://raw.githubusercontent.com/notayushop/ultimatemine/main/files/sodium-fabric-0.9.1+mc26.2.jar"
+  },
   "xray-nv-mcpe": {
     "link": "https://raw.githubusercontent.com/notayushop/ultimatemine/main/files/X-ray + Nightvision.mcpack"
   },
