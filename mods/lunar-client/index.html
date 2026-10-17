@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0f0d">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="UltimateMine">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg">
+  <link rel="stylesheet" href="../../assets/style.css">
+
+  <!-- ═══════════════ EDIT HEAD (4 lines only) ═══════════════ -->
+  <title>Crystal Caverns Mod — Glowing Cave Generation | UltimateMine</title>
+  <meta name="description" content="Crystal Caverns adds glowing geode caves and rare ore veins to Minecraft. Supports 1.21, 1.20.6, 1.20.4 and 1.20.1.">
+  <link rel="canonical" href="https://ultimatemine.in/mods/crystal-caverns/">
+  <meta property="og:image" content="https://ultimatemine.in/assets/images/screenshot-crystal.svg">
+  <!-- ═══════════════ END HEAD ═══════════════ -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "BreadcrumbList", "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ultimatemine.in/" },
+        { "@type": "ListItem", "position": 2, "name": "Mods", "item": "https://ultimatemine.in/mods/" },
+        { "@type": "ListItem", "position": 3, "name": "Crystal Caverns", "item": "https://ultimatemine.in/mods/crystal-caverns/" }
+      ]}
+    ]
+  }
+  </script>
+</head>
+<body data-base="../../">
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- ═══════════════ EDIT PAGE DATA (one line each) ═══════════════ -->
+  <script>
+    const NAME        = "Lunar Client";
+    const CATEGORY    = "PVP Pack";
+    const ICON        = "Lunar Client";
+    const COLOR       = "linear-gradient(135deg,#22c55e,#0ea5e9)";
+    const VERSIONS    = ["1.26+"];
+    const LATEST      = "1.26";
+    const LOADER      = "Pocket / Bedrock";
+    const DEPS        = "None";
+    const OVERVIEW    = "Crystal Caverns introduces large, glowing cave systems beneath the overworld surface. Geodes, crystal clusters, and rare ore veins are generated in structured, themed biomes so exploration feels rewarding without breaking vanilla progression.";
+    const OVERVIEW2   = "The mod is designed to feel like a natural extension of the base game. Cave shapes respect vanilla cave carvers, and the new content blends with existing cave biomes.";
+    const FEATURES    = [
+      "Glowing cave biomes with crystal clusters and ambient light.",
+      "Rare ore veins that blend naturally with vanilla cave generation.",
+      "Configurable spawn rate for denser or sparser caves.",
+      "No new dimensions — everything lives in the overworld."
+    ];
+    const SCREENSHOT  = "../../assets/images/screenshot-crystal.svg";
+    const SCREEN_ALT  = "Crystal Caverns underground cave with glowing geode clusters";
+    const SCREEN_CAP  = "Glowing geodes illuminate deep cave systems.";
+    const STEPS       = [
+      "Install a compatible mod loader (Fabric or Forge) for your Minecraft version.",
+      "Download the Crystal Caverns file that matches your loader and version.",
+      "Place the file in your .minecraft/mods folder.",
+      "Launch the game and generate a new world."
+    ];
+    const COMPAT      = "Crystal Caverns is built to work alongside most world generation mods. It is safe to add to existing worlds; new caves will appear in unexplored chunks. It does not require any other mod as a dependency.";
+    const DOWNLOAD    = "";  // real URL or empty for "not available" message
+    const RELATED     = [
+      { slug: "swift-tools",      title: "Swift Tools",      category: "Utility",  icon: "pickaxe",  color: "#f59e0b" },
+      { slug: "ambient-overhaul", title: "Ambient Overhaul", category: "Graphics", icon: "sparkles", color: "#8b5cf6" }
+    ];
+    const RELATED_TYPE = "Related Mods";  // "Related Mods" or "Related Packs"
+  </script>
+  <!-- ═══════════════ END PAGE DATA ═══════════════ -->
+
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false" aria-controls="sidebar"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+      <a href="../../index.html" class="logo" aria-label="UltimateMine home"><span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M4 20 L9 15"/><path d="M9 15 L14 4 L20 10 L9 15 Z" fill="currentColor" opacity=".2"/></svg></span><span class="logo-text">Ultimate<span class="accent">Mine</span></span></a>
+      <nav class="header-nav" aria-label="Primary">
+        <a href="../../index.html">Home</a>
+        <a href="../index.html" aria-current="page">Mods</a>
+        <a href="../../packs/index.html">Packs</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="searchToggle" aria-label="Search" aria-expanded="false"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+        <a href="../../contact.html" class="btn btn-primary btn-sm header-cta">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="search-overlay" id="searchOverlay" hidden>
+    <div class="search-panel" role="dialog" aria-modal="true">
+      <div class="search-bar"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" id="globalSearchInput" placeholder="Search mods and packs..." aria-label="Search"><button class="icon-btn" id="searchClose" aria-label="Close"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+      <div class="search-results" id="globalSearchResults"><p class="search-hint">Start typing to search.</p></div>
+    </div>
+  </div>
+
+  <aside class="sidebar" id="sidebar" aria-label="Sidebar">
+    <div class="sidebar-inner">
+      <nav class="sidebar-nav">
+        <span class="sidebar-title">Explore</span>
+        <a href="../../index.html" class="sidebar-link">Home</a>
+        <a href="../index.html" class="sidebar-link active">All Mods</a>
+        <a href="../../packs/index.html" class="sidebar-link">All Packs</a>
+        <span class="sidebar-title">Company</span>
+        <a href="../../about.html" class="sidebar-link">About Us</a>
+        <a href="../../contact.html" class="sidebar-link">Contact Us</a>
+        <span class="sidebar-title">Legal</span>
+        <a href="../../privacy-policy.html" class="sidebar-link">Privacy Policy</a>
+        <a href="../../terms.html" class="sidebar-link">Terms &amp; Conditions</a>
+        <a href="../../disclaimer.html" class="sidebar-link">Disclaimer</a>
+      </nav>
+      <div class="sidebar-card"><p class="sidebar-card-title">Explore more mods</p><p class="sidebar-card-text">Browse the full mod library.</p><a href="../index.html" class="btn btn-primary btn-sm btn-block">All Mods</a></div>
+    </div>
+  </aside>
+  <div class="sidebar-backdrop" id="sidebarBackdrop" hidden></div>
+
+  <div class="page-wrap">
+    <main id="main">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <ol><li><a href="../../index.html">Home</a></li><li><a href="../index.html">Mods</a></li><li aria-current="page" id="bc-current"></li></ol>
+        </nav>
+        <div class="detail-layout">
+          <div id="detail-main"></div>
+          <aside class="detail-side" id="detail-side"></aside>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer"><div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand"><a href="../../index.html" class="logo"><span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M4 20 L9 15"/><path d="M9 15 L14 4 L20 10 L9 15 Z" fill="currentColor" opacity=".2"/></svg></span><span class="logo-text">Ultimate<span class="accent">Mine</span></span></a><p class="footer-about">Curated Minecraft mods and packs.</p></div>
+        <div class="footer-col"><h4 class="footer-heading">Explore</h4><ul><li><a href="../../index.html">Home</a></li><li><a href="../index.html">All Mods</a></li><li><a href="../../packs/index.html">All Packs</a></li></ul></div>
+        <div class="footer-col"><h4 class="footer-heading">Company</h4><ul><li><a href="../../about.html">About Us</a></li><li><a href="../../contact.html">Contact Us</a></li></ul></div>
+        <div class="footer-col"><h4 class="footer-heading">Legal</h4><ul><li><a href="../../privacy-policy.html">Privacy Policy</a></li><li><a href="../../terms.html">Terms &amp; Conditions</a></li><li><a href="../../disclaimer.html">Disclaimer</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; <span id="year">2025</span> UltimateMine.in</p><p class="footer-note">Not affiliated with Mojang Studios or Microsoft.</p></div>
+    </div></footer>
+  </div>
+
+  <script src="../../assets/main.js" defer></script>
+
+  <script>
+  (function () {
+    const ICONS = {
+      crystal:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 2 L20 8 L12 22 L4 8 Z"/><path d="M4 8 L20 8"/><path d="M12 2 L12 22"/></svg>',
+      pickaxe:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21 L13 11"/><path d="M13 11 C13 7 16 4 20 3 C20 7 17 10 13 11 Z"/></svg>',
+      sparkles:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3 L13.5 9 L19.5 10.5 L13.5 12 L12 18 L10.5 12 L4.5 10.5 L10.5 9 Z"/></svg>',
+      snowflake: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M12 2v20M4 6l16 12M20 6L4 18"/></svg>',
+      palette:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3C6.5 3 3 7 3 12c0 4 3 7 6 7 1 0 1.5-.6 1.5-1.5S11 16 12 16h3c3 0 6-2 6-5 0-5-4-8-9-8Z"/></svg>',
+      cloud:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 18c-2.5 0-4-1.8-3.5-4-.5-3 2-5.5 5-5 .8-2.2 3.5-3 5.5-2 1.8.8 2.8 2.3 2.8 4 2.2.2 3.7 1.8 3.2 4-.4 1.8-2 3-4 3H6Z"/></svg>',
+      block:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>'
+    };
+    const icon = ICONS[ICON] || ICONS.block;
+    document.getElementById('bc-current').textContent = NAME;
+
+    const tags  = VERSIONS.map(v => '<span class="tag">' + v + '</span>').join('');
+    const feats = FEATURES.map(f => '<li>' + f + '</li>').join('');
+    const steps = STEPS.map(s => '<li>' + s + '</li>').join('');
+    const vers  = VERSIONS.map(v => '<li>Minecraft ' + v + '</li>').join('');
+
+    document.getElementById('detail-main').innerHTML =
+      '<div class="detail-hero">' +
+        '<div class="detail-icon" style="--icon-bg:' + COLOR + '" aria-hidden="true">' + icon + '</div>' +
+        '<div><h1>' + NAME + '</h1><p class="detail-category">' + CATEGORY + '</p><div class="detail-tags">' + tags + '</div></div>' +
+      '</div>' +
+      '<section class="detail-section"><h2>Overview</h2><p>' + OVERVIEW + '</p>' +
+        (OVERVIEW2 ? '<p>' + OVERVIEW2 + '</p>' : '') + '</section>' +
+      '<section class="detail-section"><h2>Screenshots</h2><div class="screenshots"><figure>' +
+        '<img src="' + SCREENSHOT + '" alt="' + SCREEN_ALT + '" loading="lazy" width="1200" height="675">' +
+        '<figcaption>' + SCREEN_CAP + '</figcaption></figure></div></section>' +
+      '<section class="detail-section"><h2>Features</h2><ul>' + feats + '</ul></section>' +
+      '<section class="detail-section"><h2>Supported Versions</h2><ul>' + vers + '</ul></section>' +
+      '<section class="detail-section"><h2>Installation</h2><ol class="steps">' + steps + '</ol></section>' +
+      '<section class="detail-section"><h2>Compatibility</h2><p>' + COMPAT + '</p></section>';
+
+    const relatedHtml = RELATED.map(function (r) {
+      const ri = ICONS[r.icon] || ICONS.block;
+      return '<a class="related-item" href="../' + r.slug + '/index.html">' +
+        '<span class="ri-icon" style="background:' + r.color + '" aria-hidden="true">' + ri + '</span>' +
+        '<span><span class="ri-title">' + r.title + '</span><br><span class="ri-meta">' + r.category + '</span></span></a>';
+    }).join('');
+
+    const downloadHtml = DOWNLOAD
+      ? '<a href="' + DOWNLOAD + '" class="btn btn-primary btn-block" rel="noopener" target="_blank">Download</a>'
+      : '<div class="download-unavailable"><p><strong>Download link not available yet.</strong></p><p>Only genuine links from the creator are listed. Check back soon or <a href="../../contact.html">contact us</a>.</p></div>';
+
+    document.getElementById('detail-side').innerHTML =
+      '<div class="side-card"><h2>Download</h2>' + downloadHtml + '</div>' +
+      '<div class="side-card"><h3>Details</h3><ul class="info-list">' +
+        '<li><span>Category</span><span>' + CATEGORY + '</span></li>' +
+        '<li><span>Mod loader</span><span>' + LOADER + '</span></li>' +
+        '<li><span>Latest version</span><span>' + LATEST + '</span></li>' +
+        '<li><span>Dependencies</span><span>' + DEPS + '</span></li>' +
+      '</ul></div>' +
+      '<div class="side-card"><h3>' + RELATED_TYPE + '</h3><div class="related-list">' + relatedHtml + '</div></div>';
+  })();
+  </script>
+</body>
+</html>
