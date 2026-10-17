@@ -16,10 +16,10 @@ const SVG = {
 /* ---------- Site Data ---------- */
 const MODS_DATA = [
   {
-    slug: "crystal-caverns",
-    title: "Crystal Caverns",
+    slug: "lunar-client",
+    title: "Lunar Client",
     description: "Generates breathtaking crystal caves filled with glowing geodes and rare ores beneath your world.",
-    category: "World Generation",
+    category: "PVP Pavk",
     versions: ["1.21", "1.20.6", "1.20.4", "1.20.1"],
     date: "2025-05-12",
     color: "linear-gradient(135deg,#22c55e,#0ea5e9)",
